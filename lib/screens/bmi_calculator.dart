@@ -2,11 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 
-//*****************
-//bu kısımlarda sadece tasarım örneklerine bakılmıştır, herhangi bir kod örneğinden yararlanılmadı.
-//*****************
-
-
 class BmiCalculator extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -64,12 +59,11 @@ class _BmiCalculatorState extends State<BmiCalculator> {
                           onPressed: () {
                             setState(() {
                               result = double.tryParse(weight.text)/(double.tryParse(height.text)/100*double.tryParse(height.text)/100);
-                             // icons = iconFunc(result);
+ 
                             });
                           },
                         ),
-                        //iconFunc(result),
-
+                
                         iconFunc(),
 
                       ],
@@ -118,9 +112,8 @@ class _BmiCalculatorState extends State<BmiCalculator> {
           Text("You should lose some weight.."),
         ],
       ),padding: EdgeInsets.only(top:10.0,bottom: 5.0),);
-      //myText = "You should lose some weight..";
-    }
 
+    }
     else{
       return Container(child: Column(
         children: [
@@ -128,7 +121,6 @@ class _BmiCalculatorState extends State<BmiCalculator> {
           Text("You are obese! You should be careful what you eat.."),
         ],
       ),padding: EdgeInsets.only(top:10.0,bottom: 5.0),);
-      //myText = "You are obese! You should be careful what you eat..";
     }
 
   }
