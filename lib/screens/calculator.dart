@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 
-//*****************
-//bu kısımlarda sadece tasarım örneklerine bakılmıştır, herhangi bir kod örneğinden yararlanılmadı.
-//*****************
 
 class Calculator extends StatefulWidget {
   @override
