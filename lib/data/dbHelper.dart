@@ -1,12 +1,7 @@
-//insert-select-delete-update işlemleri burada yapılır.
 import 'dart:async';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:myapptools/models/todo.dart';
-
-//*************************
-//Ödevin veri tabanı kısımlarında videoda belirtilen kaynak videolardan yararlandım.(BTK flutter eğitimi)
-//*************************
 
 class DbHelper {
   Database _db;
