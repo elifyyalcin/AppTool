@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:myapptools/data/dbHelper.dart';
 import 'package:myapptools/models/todo.dart';
 
-//*************************
-//controller kullanımı için video kaynaktan yararlanıldı.(BTK flutter eğitimi)
-//*************************
+
 class TodoAdd extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
